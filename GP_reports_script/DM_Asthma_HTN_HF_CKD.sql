@@ -3,7 +3,7 @@ update global_property set property_value='DIABETES VISIT' where property='repor
 update global_property set property_value='NCD Diabetes: Enrollment form' where property='reports.DiabetesDDBForm';
 update global_property set property_value='NCD Diabetes: rendez-vous' where property='report.diabetesFlowVisit';
 update global_property set property_value='NCD Diabetes: Enrollment form' where property='reports.DMENROLLformId';
-update global_property set property_value='HEART FAILURE VISIT' where property='reports.HeartFailureEncounterType';
+update global_property set property_value='HEART FAILURE VISIT,HF HTN CKD' where property='reports.HeartFailureEncounterType';
 update global_property set property_value='DIABETES VISIT' where property='reports.postCardiacSurgeryVisit';
 update global_property set property_value='HYPERTENSION VISIT' where property='reports.HypertensionEncounterType';
 update global_property set property_value='ASTHMA VISIT  ' where property='reports.AsthmaEncounterType';
@@ -77,6 +77,33 @@ update global_property set property_value='NCD HYPERTENSION: Enrollment form,NCD
 update global_property set property_value='Chronic Kidney Disease' where property='reports.CKDprogram';
 update global_property set property_value='NCD CKD: Enrollment form' where property='reports.CKDEnrollmentForm';
 update global_property set property_value='NCD HF/HTN/CKD Clinic Visits' where property='reports.CKDRDVForm';
-
-
-
+update global_property set property_value='HEART FAILURE PROGRAM' where property='reports.heartfailureprogramname';
+update global_property set property_value='HEART FAILURE VISIT,HF HTN CKD' where property='reports.HeartFailureEncounterType';
+update global_property set property_value='NCD HEART FAILURE: Enrollment form' where property='reports.heartFailureDDBformId';
+update global_property set property_value='NYHA CLASS' where property='reports.NYHACLASS';
+update global_property set property_value='NYHA CLASS 4' where property='reports.NYHACLASS4';
+update global_property set property_value='CARVEDILOL' where property='reports.carvedilol';
+update global_property set property_value='ATENOLOL' where property='reports.atenolol';
+update global_property set property_value='FUROSEMIDE' where property='reports.furosemide';
+update global_property set property_value='ALDACTONE' where property='reports.aldactone';
+update global_property set property_value='WARFARIN' where property='reports.warfarin';
+update global_property set property_value='NCD HF/HTN/CKD Clinic Visits' where property='reports.Form_InsuffisanceCardiaqueRDV';
+update global_property set property_value='POST OPERATIVE' where property='reports.postOperativeState';
+update global_property set property_value='SURGERY STATUS' where property='reports.surgeryStatusWorkflow';
+update global_property set property_value='NOT DONE' where property='reports.notDone';
+update global_property set property_value='EJECTION FRACTION' where property='reports.ejectionFraction';
+update global_property set property_value='DDB ECHOCARDIOGRAPH RESULT' where property='reports.ddb_echocardiograph_result';
+update global_property set property_value='ECHOCARDIOGRAM COMMENT' where property='reports.ddb_echocardiograph_comment';
+update global_property set property_value='HEART FAILURE DIAGNOSIS' where property='reports.heartFailureDiagnosis';
+update global_property set property_value='CARDIOMYOPATHY' where property='reports.cardiomyopathy';
+update global_property set property_value='MITRAL STENOSIS' where property='reports.mitralStenosis';
+update global_property set property_value='RHEUMATIC HEART DISEASE' where property='reports.rhuematicHeartDisease';
+update global_property set property_value='HYPERTENSIVE HEART DISEASE' where property='reports.hypertensiveHeartDisease';
+update global_property set property_value='CONGENITAL HEART DISEASE' where property='reports.congenitalHeartFailure';
+update global_property set property_value='INTERNATIONAL NORMALIZED RATIO' where property='reports.internationalNormalizedRatio';
+update global_property set property_value='NCD HEART FAILURE: Enrollment form' where property='reports.HFENROLLformId';
+update global_property set property_value='POST OPERATIVE VALVE TYPE' where property='reports.postOperativeValveType';
+update global_property set property_value='NCD HF/HTN/CKD Clinic Visits' where property='reports.heartFailureNHYAForms';
+update global_property set property_value='NCD HF/HTN/CKD Clinic Visits' where property='reports.heartfailureFlowVisit';
+update global_property set property_value='NCD HEART FAILURE: Enrollment form,NCD HF/HTN/CKD Clinic Visits' where property='reports.heartFailureDDBAndRendezvousForms';
+commit;
