@@ -3,7 +3,7 @@ update global_property set property_value='DIABETES VISIT' where property='repor
 update global_property set property_value='NCD Diabetes: Enrollment form' where property='reports.DiabetesDDBForm';
 update global_property set property_value='NCD Diabetes: rendez-vous' where property='report.diabetesFlowVisit';
 update global_property set property_value='NCD Diabetes: Enrollment form' where property='reports.DMENROLLformId';
-update global_property set property_value='HEART FAILURE VISIT,HF HTN CKD' where property='reports.HeartFailureEncounterType';
+update global_property set property_value='HEART FAILURE VISIT' where property='reports.HeartFailureEncounterType';
 update global_property set property_value='DIABETES VISIT' where property='reports.postCardiacSurgeryVisit';
 update global_property set property_value='HYPERTENSION VISIT' where property='reports.HypertensionEncounterType';
 update global_property set property_value='ASTHMA VISIT  ' where property='reports.AsthmaEncounterType';
